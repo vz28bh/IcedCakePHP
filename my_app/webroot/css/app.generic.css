@@ -1,0 +1,65 @@
+/* 
+    Document   : scheduling
+    Created on : Aug 1, 2012, 9:13:33 AM
+    Author     : cmwoody
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root { 
+  display: block;
+}
+
+th a.asc:after {
+  content: ' ⇣';
+}
+th a.desc:after {
+  content: ' ⇡';
+}
+
+.toolbar-minix {
+  margin: 1px;
+}
+
+
+body {
+  padding-top: 50px;
+}
+
+/* Nicer dl */
+dl.list-horizontal {
+  line-height: 2em;
+  margin: 0em 0em;
+  width: 100%;
+}
+dl.list-horizontal dd:nth-child(4n+2),
+dl.list-horizontal dt:nth-child(4n+1) {
+  background: #f4f4f4;
+}
+
+dl.list-horizontal dt {
+  font-weight: bold;
+  padding-left: 4px;
+  vertical-align: top;
+  width: 10em;
+  line-height: 2em;
+}
+dl.list-horizontal dd {
+  margin-left: 10em;
+  margin-top: -2em;
+  vertical-align: top;
+  line-height: 2em;
+  white-space: nowrap;
+}
+
+.table-nonfluid {
+  width: auto;
+}
+
+td {
+  white-space: nowrap;
+}
+
+.checked:after {
+  content:  " \2713 ";
+}
+
