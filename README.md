@@ -40,7 +40,7 @@ keep asking about when they start using CakePHP.
 So instead of spending days with Google, you can download a fully functioning app that does tons of
 things you need and tons you don't and your job is just to remove the ones you don't want!
 
-It would be great if we could get a CakePHP approved IDE that is fully integrated with CakePHP.
-NetBeans is pretty good, but xdebug is kind of lame.  Just imagine if you could download a fully
+It would be great if we could get a CakePHP approved IDE that is fully integrated with CakePHP
+(NetBeans and xdebug is OK, but not quite in the Visual Studio league).  Just imagine if you could download a fully
 compatible IDE with a great debugger, code hinting, Git compatibility and a great base app all
 on the first day of working with CakePHP...the time that would have saved me!
