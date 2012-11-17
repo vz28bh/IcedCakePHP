@@ -1,3 +1,4 @@
+
 IcedCakePHP
 ===========
 
@@ -14,6 +15,10 @@ that uses Twitter Bootstrap to look great and has a few Jquery sprinkles on top.
 - Date/Time picker demos
 - Twitter navbar with drop down menus
 - Multi-language support using a language option in the url
+- Cake Auth login
+- Integrated CakeDC Users plugin
+- Optional ldap (ActiveDirectory) login
+- CakeDC Star ratings plugin demo
 
 Instructions
 ============
@@ -26,13 +31,18 @@ Now to use your own db, just update the database.cfg and run cake bake and you w
 view files and controllers.  Note that if you have a lot of models, the navbar will overflow and things
 will get wonky, but just edit/replace the menus.ctp element.
 
+The ldap login is designed to work with the standard auth login.  Both are configured and the ldap is
+attempted first.  If successful, the users table password field is updated with the ldap password.  So
+if ldap is not available, the user will still be able to authenticate with the last known good password.
+Feel free to change the config in App/app_user.php to use database auth.
+
 Future
 ======
 
 I would like to improve this default app with all the things that the majority of web developers
 keep asking about when they start using CakePHP. 
  
-- User auth login (Facebook, OpenID, etc...)
+- Other auth login methods (Facebook, OpenID, etc...)
 - Facebook feeds
 - Twitter feeds
 - All sorts of Jquery goodies
@@ -49,13 +59,15 @@ Revisions
 =========
 
 2012-11-14  
-- Added CakeDC users plugin
-- Added Ldap authentication option (tested only with Active Directory)
-- Added CakeDC star ratings plugin (with demo)
+- Added CakeDC Users plugin
+- Added Ldap authentication option (tested only with Active Directory) using Ldap data source
+- Added CakeDC Star Ratings plugin (with demo)
 
 Installation
 ============
-- Install the app as a regular CakePHP ap
+- Install the app as a regular CakePHP app
 - Create any config files that have a default version (email, database, app, app_user)
 - Import the sql from the schema to create your database (includes a few data records)
-- If you are updating, you'll need to improt the schema from the Users and Ratings plugins and add a decimal 'rating' field to the carmodels table
+- If you are updating, you'll need to import the schema from the Users and Ratings plugins and add a decimal 'rating' field to the carmodels table
+- Check the htaccess file in webroot and modify/delete the RewriteBase as needed
+- If you don't need ldap login, make sure it is deleted from App/app_user.php because if there is an error connecting to ldap it just dies.  I hope to have a fix for that.
