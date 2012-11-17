@@ -1,0 +1,30 @@
+<?php
+
+/* Remove ldap if you are not using it, otherwise there will be a big timeout */
+Configure::write( 'AppUser.authenticate',array(
+        'Form' => array(
+            'fields' => array(
+                'username' => 'username',
+                'password' => 'password'),
+            'userModel' => 'User',
+            'scope' => array(
+                'User.active' => 1,
+                'User.email_verified' => 1)),
+    ));
+//Configure::write( 'AppUser.authenticate',array(
+//        'Form' => array(
+//            'fields' => array(
+//                'username' => 'username',
+//                'password' => 'password'),
+//            'userModel' => 'User',
+//            'scope' => array(
+//                'User.active' => 1,
+//                'User.email_verified' => 1)),
+//        'Ldap' => array(
+//            'fields' => array(
+//                'username' => 'username',
+//                'password' => 'password'),
+//            'userModel' => 'LdapUser'),
+//    ));
+
+?>

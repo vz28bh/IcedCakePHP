@@ -44,3 +44,18 @@ It would be great if we could get a CakePHP approved IDE that is fully integrate
 (NetBeans and xdebug is OK, but not quite in the Visual Studio league).  Just imagine if you could download a fully
 compatible IDE with a great debugger, code hinting, Git compatibility and a great base app all
 on the first day of working with CakePHP...the time that would have saved me!
+
+Revisions
+=========
+
+2012-11-14  
+- Added CakeDC users plugin
+- Added Ldap authentication option (tested only with Active Directory)
+- Added CakeDC star ratings plugin (with demo)
+
+Installation
+============
+- Install the app as a regular CakePHP ap
+- Create any config files that have a default version (email, database, app, app_user)
+- Import the sql from the schema to create your database (includes a few data records)
+- If you are updating, you'll need to improt the schema from the Users and Ratings plugins and add a decimal 'rating' field to the carmodels table

@@ -1,0 +1,11 @@
+<?php
+Configure::write('Users.emailConfig', 'user');
+Configure::write('App.defaultEmail', 'noreply@' . env('HTTP_HOST') );
+    
+Configure::write('Config.languages', array(
+    'eng' => 'English',
+    'spa' => 'Español',
+    'por' => 'Português',
+));
+
+?>

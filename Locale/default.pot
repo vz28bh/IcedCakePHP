@@ -1,0 +1,156 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-10-19 15:39-0500\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Console\Templates\default\views\form.ctp:22
+#: View\MyModels\index.ctp:4;14
+#: View\MyModels\view.ctp:4
+msgid "Actions"
+msgstr ""
+
+#: Controller\MyModelsController.php:30;61;87
+msgid "Invalid my model"
+msgstr ""
+
+#: Controller\MyModelsController.php:44;65
+msgid "The my model has been saved"
+msgstr ""
+
+#: Controller\MyModelsController.php:47;68
+msgid "The my model could not be saved. Please, try again."
+msgstr ""
+
+#: Controller\MyModelsController.php:90
+msgid "My model deleted"
+msgstr ""
+
+#: Controller\MyModelsController.php:93
+msgid "My model was not deleted"
+msgstr ""
+
+#: View\Layouts\default.ctp:68
+msgid "List"
+msgstr ""
+
+#: View\Layouts\default.ctp:69
+msgid "Add"
+msgstr ""
+
+#: View\Layouts\default.ctp:75
+msgid "Date"
+msgstr ""
+
+#: View\Layouts\default.ctp:84
+msgid "Language"
+msgstr ""
+
+#: View\MyModels\add.ctp:6
+#: View\MyModels\demo.ctp:6
+#: View\MyModels\edit.ctp:7
+#: View\MyModels\view.ctp:7
+msgid "List My Models"
+msgstr ""
+
+#: View\MyModels\add.ctp:12
+msgid "Add My Model"
+msgstr ""
+
+#: View\MyModels\add.ctp:17
+#: View\MyModels\demo.ctp:58
+#: View\MyModels\edit.ctp:19
+msgid "Submit"
+msgstr ""
+
+#: View\MyModels\demo.ctp:12
+msgid "Pick a date"
+msgstr ""
+
+#: View\MyModels\demo.ctp:19
+msgid "Enter a valid date in YYYY-MM-DD format"
+msgstr ""
+
+#: View\MyModels\demo.ctp:29;41;53
+msgid "Enter a valid date in YYYY-MM-DD HH:MM:SS format"
+msgstr ""
+
+#: View\MyModels\edit.ctp:6
+#: View\MyModels\index.ctp:25
+msgid "Delete"
+msgstr ""
+
+#: View\MyModels\edit.ctp:6
+#: View\MyModels\index.ctp:25
+#: View\MyModels\view.ctp:6
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View\MyModels\edit.ctp:13
+#: View\MyModels\view.ctp:5
+msgid "Edit My Model"
+msgstr ""
+
+#: View\MyModels\index.ctp:5
+#: View\MyModels\view.ctp:8
+msgid "New My Model"
+msgstr ""
+
+#: View\MyModels\index.ctp:9
+msgid "My Models"
+msgstr ""
+
+#: View\MyModels\index.ctp:23
+msgid "View"
+msgstr ""
+
+#: View\MyModels\index.ctp:24
+msgid "Edit"
+msgstr ""
+
+#: View\MyModels\index.ctp:35
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View\MyModels\index.ctp:41
+msgid "previous"
+msgstr ""
+
+#: View\MyModels\index.ctp:43
+msgid "next"
+msgstr ""
+
+#: View\MyModels\view.ctp:6
+msgid "Delete My Model"
+msgstr ""
+
+#: View\MyModels\view.ctp:12
+msgid "My Model"
+msgstr ""
+
+#: View\MyModels\view.ctp:14
+msgid "Id"
+msgstr ""
+
+#: View\MyModels\view.ctp:19
+msgid "Name"
+msgstr ""
+
+#: Model\MyModel.php:validation for field name
+msgid "notempty"
+msgstr ""
+
+#: Model\MyModel.php:validation for field name
+msgid "isUnique"
+msgstr ""
+
