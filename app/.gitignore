@@ -1,0 +1,9 @@
+tmp/*
+[Cc]onfig/database.php
+[Cc]onfig/email.php
+[Cc]onfig/App/app.php
+[Cc]onfig/App/app_user.php
+my_app/*
+/nbproject/private/
+/nbproject/*
+!empty

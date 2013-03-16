@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteBase /ldap_app3/
-    RewriteRule    ^$    webroot/    [L]
-    RewriteRule    (.*) webroot/$1    [L]
+   RewriteEngine on
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
 </IfModule>
